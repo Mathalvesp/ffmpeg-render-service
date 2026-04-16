@@ -82,7 +82,7 @@ async def render_upload(
         "-map", "[v]",
         "-map", "[a]",
         "-c:v", "libx264",
-        "-preset", "medium",
+        "-preset", "veryfast",
         "-crf", "23",
         "-c:a", "aac",
         "-b:a", "192k",
